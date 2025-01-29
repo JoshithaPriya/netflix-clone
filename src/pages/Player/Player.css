@@ -1,0 +1,27 @@
+.player{
+    border: 2px solid greenyellow;
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player img{
+    position:absolute;
+    width: 50px;
+    top:20px;
+    left:20px;
+   
+   
+}
+.player iframe{
+   
+    border-radius: 10px;
+}
+.player-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+
+}

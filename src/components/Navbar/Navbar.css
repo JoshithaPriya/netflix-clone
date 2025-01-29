@@ -1,0 +1,109 @@
+
+.navbar{
+    width:auto;
+    padding:20px 6%;
+    
+    display:flex;
+    justify-content: space-between;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica , sans-serif;
+    
+    z-index: 1000;
+}
+.nav_left{
+    display: flex;
+    align-items:center;
+    
+    gap: 50px;
+
+    
+}
+.nav_left .logo{
+    width: 100px;
+
+}
+.nav_right{
+    display:flex;
+    background-color: transparent;
+     
+    align-items: center;
+    gap:30px;
+
+   
+
+}
+.nav_left img{
+    background-color: transparent;
+   
+    width:90px;
+    
+}
+.nav_left ul{
+    display: flex;
+    background-color: transparent;
+   
+    gap:20px;
+    list-style: none;
+}
+.nav_left ul li {
+    cursor: pointer;
+    background-color: transparent;
+
+
+}
+.nav_right .icons{
+    width: 20px;
+    cursor: pointer;
+    background-color: transparent;
+
+    
+}
+.nav_right .profile{
+    background-color: transparent;
+
+    width: 20px;
+    border-radius: 4px;
+}
+
+.navbar-profile{
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    gap:20px;
+    position: relative;
+    cursor: pointer;
+
+}
+.navbar .dropdown{
+    position: absolute;
+    top:100%;
+    right: 0;
+    z-index:1;
+    width:max-content;
+    padding: 18px 20px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+.navbar .dropdown p{
+    background-color: rgb(0, 0, 0);
+    font-size: 13px;
+    cursor: pointer;
+}
+.navbar-profile:hover .dropdown{
+    display: block;
+}
+div{
+    background-color: transparent;
+}
+.nav_right p{
+    background-color: transparent;
+
+}
+.nav-dark{
+    background-color: #141414;
+}

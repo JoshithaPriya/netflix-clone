@@ -1,0 +1,129 @@
+.form{
+    height:100vh;
+    padding: 30px ;
+    background-image: linear-gradient(#0000007e, #0000007e), url('../../assets/background_login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form img{
+   width:110px;
+   background-color: transparent;
+   display: block;
+}
+.login-form{
+    
+    max-width: 500px;
+    width: 100%;
+    padding:48px 28px;
+    
+    margin:auto;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.711);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.login-form h2{
+    margin-left: 120px;
+    margin-top:0;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-form input, #sign-up-button{
+    
+    background: rgba(35, 35, 36, 0.5);
+    width:250px;
+    outline: 0;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin:12px,0;
+    border:1px solid grey;
+    margin-bottom:9px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    
+    
+}
+#sign-up-button{
+    padding: 12px 50px;
+    display: block;
+    width: 290px;
+    background-color: rgba(255, 0, 0, 0.816);
+    cursor: pointer;
+}
+.login-form input::placeholder{
+    color:rgb(213, 210, 210);
+}
+.help{
+    display: flex;
+    position: relative;
+    margin:0px;
+    background-color: transparent;
+    padding-left: 105px;
+    gap:60px;
+
+}
+.remember{
+
+    gap:2px;
+    background-color: transparent;
+    align-items: center;
+    margin:2px;
+    padding:4px;
+    padding-left:0;
+    margin-left: -17px;
+   
+    
+    
+
+}
+.rem[type="checkbox"]{
+    background-color: transparent;
+    cursor: pointer;
+    margin:2px 4px;
+   
+    width: 30px;
+    padding: 3px;
+   
+
+}
+#label-remember{
+    background-color: transparent;
+  font-size: 17px;;
+   
+
+
+}
+
+.help p{
+    background-color: transparent;
+    padding: 3px 14px;
+    margin:2px 4px;
+    display:inline-block;
+    cursor: pointer;
+}
+.form-box{
+
+    margin:0px;
+    padding: 20px 100px;
+    padding-bottom: 2px;
+    background-color: transparent;
+}
+.last-para{
+    background-color: transparent;
+    display: inline-block;
+    padding-left: 100px;
+    margin-top: 5px;
+}
+.last-para p{
+    margin: 4px;
+    font-size: 14px;
+    color: #737373;
+}
+.last-para span{
+    margin-left: 1px;
+    color:#fff;
+   font-weight: 500;
+   cursor: pointer;    
+}

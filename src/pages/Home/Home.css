@@ -1,0 +1,86 @@
+.startup{
+    
+    
+
+}
+.banner-img{
+    width:100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+   
+    
+}
+.startup_caption{
+    position: absolute;
+    
+    bottom: 0;
+    padding-left:6%;
+    
+    background-color: transparent;
+}
+.caption_img{
+    bottom: 0;
+    background-color: transparent;
+
+}
+.startup_caption p{
+    background-color: transparent;
+}
+.N-title{
+    background-color: transparent;
+    width: 30px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+.N-series{
+    display: flex;
+    background-color: transparent;
+    gap:4px;
+    bottom: 0px;
+    margin: 0px;
+}
+#series{
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    color: rgba(190, 197, 203, 0.94);
+}
+.playicon{
+    background-color: transparent;
+    width:30px;
+    
+   
+    gap: 2px;
+}
+.moreinfo{
+    background-color: transparent;
+    width:10px;
+
+}
+.startup-buttons{
+    display: inline-flex;
+    background-color: transparent;
+    gap: 7px;
+}
+.playbutton{
+    background-color: aliceblue;
+    color: black;
+    display: inline-flex;
+    gap:1px;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    
+}
+.infobutton{
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.playbutton:hover{
+  background-color: rgba(246, 246, 247, 0.7); 
+}
+.infobutton:hover{
+    background-color: rgba(109, 109, 113, 0.7); 
+  }
